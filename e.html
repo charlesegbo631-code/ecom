@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Next‑Gen Gadget Store — Modern, Futuristic & High‑Conversion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="A high-end gadget e-commerce store built with futuristic UI, bold visuals and conversion-focused design." />
+  <style>
+    .float { animation: float 5s ease-in-out infinite; }
+    @keyframes float { 0%{ transform: translateY(0);} 50%{ transform: translateY(-10px);} 100%{ transform: translateY(0);} }
+
+    .glow {
+      box-shadow: 0 0 25px rgba(0, 200, 255, 0.4), 0 0 60px rgba(0, 150, 255, 0.3);
+    }
+
+    .glass {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-black via-slate-900 to-black text-slate-100 antialiased">
+
+<!-- NAV -->
+<header class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+  <div class="flex items-center gap-3">
+    <div class="w-12 h-12 bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 rounded-xl flex items-center justify-center glow">
+      <svg width="26" height="26" fill="none" stroke="#fff" stroke-width="1.4" viewBox="0 0 24 24"><path d="M12 2l7 4v8l-7 4-7-4V6l7-4z"/></svg>
+    </div>
+    <span class="text-2xl font-bold tracking-tight">GadgetSphere</span>
+  </div>
+  <nav class="hidden md:flex gap-6 items-center text-slate-300">
+    <a href="#features" class="hover:text-cyan-400">Features</a>
+    <a href="#products" class="hover:text-cyan-400">Products</a>
+    <a href="#work" class="hover:text-cyan-400">Portfolio</a>
+    <a href="#contact" class="px-4 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-lg hover:scale-105 transition">Get a Gadget Store</a>
+  </nav>
+  <button class="md:hidden text-slate-300 text-2xl">☰</button>
+</header>
+
+<!-- HERO -->
+<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+  <div>
+    <h1 class="text-5xl md:text-6xl font-extrabold leading-tight">
+      Build Your Own <span class="text-cyan-400">Premium Gadget Store</span>
+    </h1>
+    <p class="mt-6 text-lg text-slate-300">Sell phones, laptops, accessories and high-end tech with a lightning-fast, futuristic store built to maximize conversions and trust.</p>
+
+    <div class="mt-8 flex gap-4 items-center">
+      <a href="#contact" class="inline-flex items-center gap-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-xl shadow-xl transform hover:scale-105 transition">
+        Start Your Store →
+      </a>
+      <a href="#products" class="text-slate-300 hover:text-cyan-300">See products</a>
+    </div>
+  </div>
+
+  <div class="relative float">
+    <div class="p-6 rounded-3xl glass shadow-xl">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1200&q=60&auto=format&fit=crop" class="rounded-2xl w-full object-cover" />
+      <div class="mt-4 text-center">
+        <h3 class="text-xl font-semibold">Ultra Gear Collection</h3>
+        <p class="text-slate-400 text-sm">Designed for maximum speed, durability & performance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="max-w-7xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold">Why Our Gadget Stores Convert Better</h2>
+
+  <div class="mt-10 grid md:grid-cols-3 gap-6">
+    <div class="glass p-6 rounded-2xl">
+      <div class="text-4xl mb-3">⚡</div>
+      <h3 class="font-semibold text-xl">Speed Optimized</h3>
+      <p class="text-slate-300 mt-2 text-sm">Instant load time for better ranking and smoother shopping experience.</p>
+    </div>
+
+    <div class="glass p-6 rounded-2xl">
+      <div class="text-4xl mb-3">🔒</div>
+      <h3 class="font-semibold text-xl">Trusted & Secure</h3>
+      <p class="text-slate-300 mt-2 text-sm">Encrypted checkout + Paystack/OPay integration with fraud protection.</p>
+    </div>
+
+    <div class="glass p-6 rounded-2xl">
+      <div class="text-4xl mb-3">📱</div>
+      <h3 class="font-semibold text-xl">Mobile‑First Design</h3>
+      <p class="text-slate-300 mt-2 text-sm">Over 80% gadgets buyers shop on mobile — your store is optimized for them.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT SHOWCASE -->
+<section id="products" class="max-w-7xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold">Trending Tech Products</h2>
+  <p class="mt-2 text-slate-300">Showcase your gadgets with a futuristic UI that builds desire.</p>
+
+  <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Product 1 -->
+    <div class="glass rounded-2xl overflow-hidden p-4">
+      <img src="https://images.unsplash.com/photo-1510557880182-3a935d07a4f1?w=1200&q=60&auto=format&fit=crop" class="h-48 w-full object-cover rounded-xl" />
+      <h3 class="mt-4 text-lg font-semibold">SmartWatch Pro X</h3>
+      <p class="text-slate-400 text-sm mt-1">₦45,000</p>
+      <button class="mt-3 w-full bg-cyan-600 py-2 rounded-xl hover:bg-cyan-500">View Details</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="glass rounded-2xl overflow-hidden p-4">
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1200&q=60&auto=format&fit=crop" class="h-48 w-full object-cover rounded-xl" />
+      <h3 class="mt-4 text-lg font-semibold">HyperSound Headset</h3>
+      <p class="text-slate-400 text-sm mt-1">₦32,000</p>
+      <button class="mt-3 w-full bg-cyan-600 py-2 rounded-xl hover:bg-cyan-500">View Details</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="glass rounded-2xl overflow-hidden p-4">
+      <img src="https://images.unsplash.com/photo-1580894894527-1c76fccabf5b?w=1200&q=60&auto=format&fit=crop" class="h-48 w-full object-cover rounded-xl" />
+      <h3 class="mt-4 text-lg font-semibold">Gaming Mouse Ultra</h3>
+      <p class="text-slate-400 text-sm mt-1">₦18,500</p>
+      <button class="mt-3 w-full bg-cyan-600 py-2 rounded-xl hover:bg-cyan-500">View Details</button>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="work" class="max-w-7xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold">Recent Gadget Store Builds</h2>
+  <p class="mt-2 text-slate-300">These stores were built for real tech brands.</p>
+
+  <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-slate-800 rounded-2xl overflow-hidden shadow-xl">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1200&q=60&auto=format&fit=crop" class="w-full h-48 object-cover" />
+      <div class="p-5">
+        <h3 class="font-semibold">TechNova Gadgets</h3>
+        <p class="text-sm text-slate-300 mt-2">Achieved +47% increase in order volume.</p>
+      </div>
+    </div>
+
+    <div class="bg-slate-800 rounded-2
